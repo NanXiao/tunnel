@@ -1,4 +1,4 @@
-// Copyright 2012 The Go Authors.  All rights reserved.
+// Copyright 2012 Mikio Hara. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
@@ -26,7 +26,9 @@ const (
 	tun_STAYUP  = C.TUN_STAYUP
 	tun_LAYER2  = C.TUN_LAYER2
 	tun_READY   = C.TUN_READY
+)
 
+const (
 	tunMTU = C.TUNMTU
 	tunMRU = C.TUNMRU
 )

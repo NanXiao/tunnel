@@ -1,12 +1,7 @@
 // Created by cgo -godefs - DO NOT EDIT
-// cgo -godefs ./types_freebsd.go
+// cgo -godefs types_freebsd.go
 
 package tunnel
-
-const (
-	tunMTU = 0x5dc
-	tunMRU = 0x4000
-)
 
 const (
 	tunSDEBUG  = 0x8004745a
@@ -18,6 +13,11 @@ const (
 	tunSIFPID  = 0x2000745f
 	tunSIFHEAD = 0x80047460
 	tunGIFHEAD = 0x40047461
+)
+
+const (
+	tunMTU = 0x5dc
+	tunMRU = 0x4000
 )
 
 type tunInfo struct {

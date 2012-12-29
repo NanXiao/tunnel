@@ -1,4 +1,4 @@
-// Copyright 2012 The Go Authors.  All rights reserved.
+// Copyright 2012 Mikio Hara. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
@@ -27,7 +27,7 @@ func TestNullOverIPv4Tunneling(t *testing.T) {
 		t.Fatalf("tunnel.Interface failed: %v", err)
 	}
 	if err := setup(ifi.Name); err != nil {
-		t.Fatalf("platfrom dependent setup failed: %v", err)
+		t.Fatalf("platform dependent setup failed: %v", err)
 	}
 	defer func() {
 		c.Close()

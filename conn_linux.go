@@ -1,4 +1,4 @@
-// Copyright 2012 The Go Authors.  All rights reserved.
+// Copyright 2012 Mikio Hara. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
@@ -13,7 +13,7 @@ import (
 
 func open(c *Conn) error {
 	var err error
-	c.file, err = os.OpenFile("/dev/net/tun", os.O_RDWR, 0666)
+	c.file, err = os.OpenFile("/dev/net/tun", os.O_RDWR, 0)
 	if err != nil {
 		return err
 	}

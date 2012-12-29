@@ -1,5 +1,5 @@
 // Created by cgo -godefs - DO NOT EDIT
-// cgo -godefs ./types_openbsd.go
+// cgo -godefs types_openbsd.go
 
 package tunnel
 
@@ -16,7 +16,9 @@ const (
 	tun_STAYUP  = 0x400
 	tun_LAYER2  = 0x800
 	tun_READY   = 0x3
+)
 
+const (
 	tunMTU = 0xbb8
 	tunMRU = 0x4000
 )

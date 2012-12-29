@@ -1,8 +1,8 @@
-// Copyright 2012 The Go Authors.  All rights reserved.
+// Copyright 2012 Mikio Hara. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-// +build darwin netbsd plan9 windows
+// +build darwin plan9 windows
 
 package tunnel
 
